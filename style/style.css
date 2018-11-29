@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Nunito+Sans|Work+Sans');
+
+.section__header {
+	background: url("https://prodtest.mbsbooks.com/static-test/vbm/provider_imgs/0-og.jpg") no-repeat;
+	-webkit-background-size: 100% 100%;
+	        background-size: 100% 100%;
+    height: 670px;
+	font-family: Montserrat;
+}
+.navbar-brand {
+	margin-left: 7.3%;
+}
+.navbar-nav {
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 7.3%;
+}
+.nav-link {
+	color: #000;
+}
+.nav-link:hover {
+	color: #2dcdc8;
+}
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  -webkit-transition: background-color 200ms linear;
+  -o-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+}
+.navbar-fixed-top.scrolled .nav-link {
+  color:#555;
+}
+h1 {	
+	font-family: Montserrat;
+	font-size: 38px;
+	font-weight: bold;
+}
+.h1_sm {
+	font-size: 30px;
+}
+
+.btn_teel,
+.btn_teel:visited,
+.btn_teel:focus {
+	background: #10c9c3;
+	-webkit-border-radius: 0;
+	        border-radius: 0;
+	width: 180px; 
+	height: 55px;
+	font-size: 12px;
+}
+
+.btn_teel:hover {
+	-webkit-box-shadow: 0 0 5px #10c9c3;
+	        box-shadow: 0 0 5px #10c9c3;
+}
+
+.section__about-us {
+	height: 420px;
+}
+.section__skills {
+	height: 570px;
+	background: url(http://arga-mag.com/file/img/2016/12/Letter-Sample-for-office-11.jpg) no-repeat;
+	-webkit-background-size: 100% 100%;
+	        background-size: 100% 100%;
+    font-family: Montserrat;
+}
+.skills__text {
+	font-size: 12px;
+}
+.section__statistic {
+	background: #10c9c3;
+	height: 240px;
+}
+.text-digital {
+	font-size: 18px;
+}
+
+@media  screen and (max-width: 767px) {
+	.section__statistic {
+		height: 400px;
+	}
+}
