@@ -43,9 +43,9 @@ h1 {
     font-size: 30px;
 }
 
-.btn_teel,
-.btn_teel:visited,
-.btn_teel:focus {
+.btn__teel,
+.btn__teel:visited,
+.btn__teel:focus {
     font-size: 12px;
 
     width: 180px;
@@ -56,11 +56,10 @@ h1 {
     background: #10c9c3;
 }
 
-.btn_teel:hover {
+.btn__teel:hover {
     -webkit-box-shadow: 0 0 5px #10c9c3;
             box-shadow: 0 0 5px #10c9c3;
 }
-
 .section__about-us {
     height: 420px;
 }
@@ -92,9 +91,105 @@ h1 {
     -webkit-filter: brightness(20%);
             filter: brightness(20%);
 }
+.nav-item svg {
+	display: none;
+}
+.secrion__services svg{
+	font-size: 40px;
+}
+
+@media  screen and (max-width: 990px) {
+    .work__img_hover {
+    	height: 400px !important;
+    }
+
+	.nav-item svg {
+		display: inline-block;
+		margin-right: 10px;
+	}
+}
+
+@media  screen and (max-width: 880px) {
+	.section__header {
+		height: 500px;
+	}
+    .section__skills {
+        height: 400px;
+    }
+    .work__img_hover {
+    	height: 300px !important;
+    }
+}
 
 @media  screen and (max-width: 767px) {
     .section__statistic {
         height: 400px;
+    }
+}
+
+@media  screen and (max-width: 654px) {
+    .home__h1 {
+        font-size: 1.8em;
+    }
+    .work__img_hover {
+    	height: 260px !important;
+    }
+}
+
+@media  screen and (max-width: 520px) {
+    .home__h1 {
+        font-size: 1.6em;
+    }
+    .home__p {
+        font-size: 14px;
+    }
+	.btn__teel,
+	.btn__teel:visited,
+	.btn__teel:focus {
+		width: 150px;
+	}
+	.section__skills {
+		height: 320px;
+	}
+	.h1_sm {
+		font-size: 20px;
+	}
+    .work__img_hover {
+    	height: 230px !important;
+    }
+}
+
+@media  screen and (max-width: 430px) {
+	.section__header {
+		height: 400px;
+	}
+    .home__h1 {
+        font-size: 2.4em;
+    }
+    .home__p {
+        display: none;
+    } 
+    .about__p {
+    	font-size: .9em;
+    }
+    .work__img_hover {
+    	height: 220px !important;
+    }
+}
+
+@media  screen and (max-width: 380px) {
+    .home__h1 {
+        font-size: 1.8em;
+    }
+    .home__p {
+        display: none;
+    } 
+	.btn__teel,
+	.btn__teel:visited,
+	.btn__teel:focus {
+		width: 100px;
+	}
+    .work__img_hover {
+    	height: 160px !important;
     }
 }
