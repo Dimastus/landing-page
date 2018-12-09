@@ -289,6 +289,10 @@ h1 {
 .section__brands{
 	padding: 4% 0;
 	width: 100%;
+	display: none;
+}
+.secrion__services svg{
+	font-size: 40px;
 }
 
 @media  screen and (max-width: 990px) {
@@ -329,7 +333,7 @@ h1 {
         font-size: 1.8em;
     }
     .work__img_hover {
-        height: 260px !important;
+    	height: 260px !important;
     }
 }
 
