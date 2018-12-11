@@ -84,6 +84,9 @@ h1 {
 .text-digital {
     font-size: 18px;
 }
+.work__img_hover {	
+	height: 220px !important;
+}
 .work__img_hover:hover {
     -webkit-transition: all .2s linear .05s;
          -o-transition: all .2s linear .05s;
@@ -259,6 +262,16 @@ h1 {
 .slider__txt:after {
     content: '"';
 }
+.footer__p_font {
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 700;
+}
+.footer__span_font {
+	font-family: "Nunito Sans";
+	font-size: 15px;
+	color: rgba(255, 255, 255, .7);
+}
 
 @-webkit-keyframes check {
     50% {
@@ -289,7 +302,6 @@ h1 {
 .section__brands{
 	padding: 4% 0;
 	width: 100%;
-	display: none;
 }
 .secrion__services svg{
 	font-size: 40px;
@@ -297,7 +309,7 @@ h1 {
 
 @media  screen and (max-width: 990px) {
     .work__img_hover {
-        height: 400px !important;
+        height: 270px !important;
     }
 
     .nav-item svg {
@@ -315,7 +327,7 @@ h1 {
         height: 400px;
     }
     .work__img_hover {
-        height: 300px !important;
+        height: 250px !important;
     }
     .slider__contents {
     	font-size: 10px;
@@ -333,7 +345,7 @@ h1 {
         font-size: 1.8em;
     }
     .work__img_hover {
-    	height: 260px !important;
+    	height: 200px !important;
     }
 }
 
@@ -356,7 +368,7 @@ h1 {
         font-size: 20px;
     }
     .work__img_hover {
-        height: 230px !important;
+        height: 180px !important;
     }
     .slider__txt {
     	font-size: 1.7em;
@@ -377,7 +389,7 @@ h1 {
         font-size: .9em;
     }
     .work__img_hover {
-        height: 220px !important;
+        height: 150px !important;
     }
     .slider__txt {
     	font-size: 1.5em;
@@ -400,6 +412,6 @@ h1 {
         width: 100px;
     }
     .work__img_hover {
-        height: 160px !important;
+        height: 120px !important;
     }
 }
